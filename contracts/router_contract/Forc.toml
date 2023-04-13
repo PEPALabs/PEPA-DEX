@@ -1,0 +1,10 @@
+[project]
+authors = ["user1"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "router_contract"
+
+[dependencies]
+pepaswap_helpers = { path = "../pepaswap_helpers" }
+swap_abi = { path = "../swap_abi" }
+factory_abi = { path = "../factory_abi" }
